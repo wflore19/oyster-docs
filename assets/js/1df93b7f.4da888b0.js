@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[4583],{8198:(s,o,t)=>{t.r(o),t.d(o,{default:()=>r});t(8774);var c=t(4586),e=(t(1107),t(6347));var n=t(4848);function r(){const{siteConfig:s}=(0,c.A)();return(0,n.jsx)(e.rd,{to:"/oyster-docs/docs/introduction"})}}}]);
