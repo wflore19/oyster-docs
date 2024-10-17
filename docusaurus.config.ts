@@ -80,8 +80,9 @@ const config: Config = {
         },
         {
           href: 'https://github.com/colorstackorg/oyster',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
