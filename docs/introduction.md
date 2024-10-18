@@ -1,7 +1,7 @@
 ---
-title: 'Introduction'
-sidebar_label: 'Introduction'
-sidebar_position: 1
+title: "Introduction"
+sidebar_label: "Introduction"
+sidebar_position: 0
 ---
 
 ![Docusaurus logo](/img/colorstack-wordmark.png)
