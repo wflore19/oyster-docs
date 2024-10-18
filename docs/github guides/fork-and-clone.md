@@ -20,17 +20,17 @@ To start contributing to a project on GitHub, you'll need to fork the repository
      ![fork button](/img/code-button.gif)
    - Open your terminal and run:
      ```
-     git clone <URL_YOU_COPIED>
+     git clone https://github.com/<USERNAME>/oyster.git
      ```
 
 3. **Set up the upstream remote**:
    - Change into the cloned directory:
      ```
-     cd <REPOSITORY_NAME>
+     cd oyster
      ```
    - Add the original repository as the upstream remote:
      ```
-     git remote add upstream <ORIGINAL_REPOSITORY_URL>
+     git remote add upstream https://github.com/colorstackorg/oyster.git
      ```
 
 Now you have a local copy of the project and can start making changes!

@@ -21,15 +21,15 @@ Before making changes, it's important to create a new branch. This keeps your ch
 3. **Create and switch to a new branch**:
 
    ```
-   git checkout -b <YOUR_BRANCH_NAME>
+   git checkout -b <last-name/branch-name> 
    ```
 
    Name your branch something descriptive related to the changes you're making.
 
    ```
-   flo/first-contrib
-    ^ Username
-            ^ Branch description
+   last-name/branch-name
+
+   ex. flo/first-contrib
    ```
 
    Now you're ready to make your changes on this new branch!

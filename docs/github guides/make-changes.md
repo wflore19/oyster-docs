@@ -31,7 +31,7 @@ Write a clear, concise commit message describing what you changed and why.
 4. **Push your changes** to your fork on GitHub:
 
 ```
-git push origin <YOUR_BRANCH_NAME>
+git push origin main
 ```
 
 Remember to commit often and keep your commits focused on specific changes. This makes it easier to review and potentially revert changes if needed.
