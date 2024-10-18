@@ -1,41 +1,21 @@
-# Website
+# Oyster Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the Oyster Documentation project! This repository contains technical documentation for Oyster, aiming to help users and contributors understand how to use and maintain the Oyster project.
 
-### Installation
+## About
 
-```
-$ yarn
-```
+This documentation covers various aspects of Oyster, including:
 
-### Local Development
+- Onboarding guides
+- Common bug fixes
+- Tutorials
+- Example code
+- And more...
 
-```
-$ yarn start
-```
+## Website
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This documentation website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Build
+# Contributing
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+We welcome contributions to the Oyster Documentation! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed information on how to contribute to this project.
