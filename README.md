@@ -1,5 +1,7 @@
 # Oyster Documentation
 
+![alt text](./static/img/website.png)
+
 Welcome to the Oyster Documentation project! This repository contains technical documentation for Oyster, aiming to help users and contributors understand how to use and maintain the Oyster project.
 
 ## About
