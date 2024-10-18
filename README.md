@@ -14,10 +14,6 @@ This documentation covers various aspects of Oyster, including:
 - Example code
 - And more...
 
-## Website
-
-This documentation website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
-# Contributing
+## Contributing
 
 We welcome contributions to the Oyster Documentation! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed information on how to contribute to this project.
