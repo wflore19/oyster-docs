@@ -4,7 +4,7 @@ sidebar_label: "Introduction"
 sidebar_position: 0
 ---
 
-![Docusaurus logo](/img/colorstack-wordmark.png)
+![Colorstack logo](/img/colorstack-wordmark.png)
 
 <p align="center"><b>Oyster</b>: The open-source software that powers the ColorStack community experience. ✊🏿✊🏾✊🏽✊🏼</p>
 
@@ -123,3 +123,8 @@ A heartfelt thanks to our ColorStack members for their contributions! 🙏
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+## License
+
+By contributing your code to the this GitHub repository, you agree to license
+your contribution under the MIT license.

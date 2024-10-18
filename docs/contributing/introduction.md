@@ -24,8 +24,3 @@ members. ❤️
 - [Deciding What to Work On](./deciding-what-to-work-on.md)
 - [Making a Pull Request](./making-a-pull-request.md)
 - [License](#license)
-
-## License
-
-By contributing your code to the this GitHub repository, you agree to license
-your contribution under the MIT license.
