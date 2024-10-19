@@ -3,21 +3,117 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .heroBanner {
+  padding: 2rem 1rem;
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+  background-color: var(--ifm-color-primary);
 }
 
 .buttons {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.recentUpdates {
+  padding: 2rem 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.updatesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.updatesList li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.updateDate {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+:global(.hover-card) {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+:global(.hover-card:hover) {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Tablet and larger */
+@media screen and (min-width: 768px) {
+  .heroBanner {
+    padding: 3rem 2rem;
+  }
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .featureIcon {
+    font-size: 3rem;
+  }
+
+  .recentUpdates {
+    padding: 2rem;
+  }
+
+  .updatesList li {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .updateDate {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+}
+
+/* Desktop and larger */
+@media screen and (min-width: 1024px) {
+  .heroBanner {
+    padding: 4rem 0;
+  }
+
+  .features {
+    padding: 3rem 0;
+  }
+
+  .recentUpdates {
+    padding: 3rem 0;
+  }
 }
