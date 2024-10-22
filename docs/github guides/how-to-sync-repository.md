@@ -14,15 +14,22 @@ How do I update/sync my repository?
 
 ColorStack's Oyster repository has been updated, but that doesn't automatically update in your forked repository.
 
-## Git
+## Steps
 
 Time to update your forked repository to the newest changes in ColorStack official Oyster repository!
+
+Add the original repository as a remote (if you haven't already):
+
+```
+git remote add upstream https://github.com/colorstackorg/oyster.git
+```
 
 1. Switch to your main branch
 
 ```
 git checkout main
 ```
+
 
 2. Read all the updates from the branch `upstream/main`
 
